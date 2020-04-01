@@ -34,26 +34,26 @@
 
 
 cardArray=[
-  {text: "A", image: "../img/1.jpg"},
-  {text: "A", image: "../img/1.jpg"},
-  {text: "B", image: "../img/2.jpg"},
-  {text: "B", image: "../img/2.jpg"},
-  {text: "C", image: "../img/3.jpg"},
-  {text: "C", image: "../img/3.jpg"},
-  {text: "D", image: "../img/4.jpg"},
-  {text: "D", image: "../img/4.jpg"},
-  {text: "E", image: "../img/5.jpg"},
-  {text: "E", image: "../img/5.jpg"},
-  {text: "F", image: "../img/6.png"},
-  {text: "F", image: "../img/6.png"},
-  {text: "G", image: "../img/7.jpg"},
-  {text: "G", image: "../img/7.jpg"},
-  {text: "H", image: "../img/8.jpg"},
-  {text: "H", image: "../img/8.jpg"},
-  {text: "I", image: "../img/9.jpg"},
-  {text: "I", image: "../img/9.jpg"},
-  {text: "J", image: "../img/10.jpg"},
-  {text: "J", image: "../img/10.jpg"}
+  {text: "A", image: "/img1"},
+  {text: "A", image: "/img1"},
+  {text: "B", image: "/img2"},
+  {text: "B", image: "/img2"},
+  {text: "C", image: "/img3"},
+  {text: "C", image: "/img3"},
+  {text: "D", image: "/img4"},
+  {text: "D", image: "/img4"},
+  {text: "E", image: "/img5"},
+  {text: "E", image: "/img5"},
+  {text: "F", image: "/img6"},
+  {text: "F", image: "/img6"},
+  {text: "G", image: "/img7"},
+  {text: "G", image: "/img7"},
+  {text: "H", image: "/img8"},
+  {text: "H", image: "/img8"},
+  {text: "I", image: "/img9"},
+  {text: "I", image: "/img9"},
+  {text: "J", image: "/img10"},
+  {text: "J", image: "/img10"}
 
 ];
 
