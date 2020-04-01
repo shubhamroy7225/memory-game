@@ -51,6 +51,7 @@ var board=document.getElementById("board");
 for(var i=0; i<cardArray.length; i++){
 var cardsBack=document.createElement("div");
 cardsBack.classList.add("card");
+cardsBack.setAttribute('id',"div_"+""+i);
 board.appendChild(cardsBack);
 
 // adding images to cardback
@@ -101,4 +102,18 @@ for(var i = 0; i < frontCards.length; i++){
   frontCards[i].classList.remove("image");
   clickedCard=[];
   }
+}
+function ran_col() { 
+  var color; 
+  var letters = ['000000','FF0000','00FF00','0000FF','FFFF00','00FFFF','FF00FF','C0C0C0']; //Set your colors here
+
+  var x= document.getElementsByClassName("card");
+  var i;
+  for(i=0;i<x.length;i++)
+  {
+      color="#";
+      color += letters[Math.floor(Math.random() * letters.length)];
+      x[i].style.backgroundColor = color;
+  }
+  document.getElementById("board").style.display = "block";
 }

@@ -1,6 +1,6 @@
 
   body{
-    background-color: aquamarine;
+    background-color: aqua;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -46,7 +46,7 @@
     height: 160px;
     margin: 10px;
     float:right;
-    background-color: blue;
+    /* background-color: blue; */
     background-size: 160px 160px;
     border-radius: 10px;
     -moz-box-shadow: -3px 3px 10px #000;
