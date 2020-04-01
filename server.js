@@ -1,6 +1,9 @@
 const express = require('express')
 const app = express()
 app.get('/', function (req, res) {
+  res.sendFile(__dirname + '/memory/home.html')
+})
+app.get('/index', function (req, res) {
   res.sendFile(__dirname + '/memory/index.html')
 })
 app.get('/css', function (req, res) {
@@ -38,6 +41,9 @@ app.get('/img9', function (req, res) {
 })
 app.get('/img10', function (req, res) {
   res.sendFile(__dirname + '/img/10.jpg')
+})
+app.get('/img11', function (req, res) {
+  res.sendFile(__dirname + '/img/memory.jpeg')
 })
 app.use(express.static('public'))
 .listen(process.env.PORT, () => {

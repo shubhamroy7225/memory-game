@@ -59,7 +59,6 @@ var images=document.createElement("img");
 images.src = cardArray[i].image;
 images.className="image";
 cardsBack.appendChild(images);
-
 cardsBack.addEventListener("click",function(){
 if (clicks>0){
   clicks--;
@@ -103,7 +102,7 @@ for(var i = 0; i < frontCards.length; i++){
   clickedCard=[];
   }
 }
-function ran_col() { 
+function ran_col(){ 
   var color; 
   var letters = ['000000','FF0000','00FF00','0000FF','FFFF00','00FFFF','FF00FF','C0C0C0']; //Set your colors here
 
@@ -116,4 +115,8 @@ function ran_col() {
       x[i].style.backgroundColor = color;
   }
   document.getElementById("board").style.display = "block";
+}
+
+function startgame(){
+  window.open('/index')
 }
